@@ -10,6 +10,30 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>logback-enchance</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <logback.version>1.0.13</logback.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.51</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
